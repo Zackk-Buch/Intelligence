@@ -1,1 +1,31 @@
-What is SocGholish, Who operates it, What industries are targeted, How does infection Happen, What malware familes are associated.
+SocGholish is a JavaScript-based malware family, also known as FakeUpdates, that was first observed in early 2018. 
+It is widely attributed to Mustard Tempest (also known as TA569), although some sources associate its operations 
+with the Russian cybercrime group Evil Corp. It uses fake browser update prompts and social engineering to trick 
+users into downloading malicious files. After gaining access, it employs techniques such as domain shadowing, 
+DLL hijacking, domain rotation, and evasive logic to evade detection and establish persistence on infected systems.
+
+SocGholish does not appear to target a single specific industry and is considered largely opportunistic, 
+affecting a wide range of organizations and individuals. While many victims are everyday businesses, higher value 
+targets may include organizations in sectors such as government, healthcare, banking, education, and media. 
+These sectors are attractive due to the potential for financial gain, access to sensitive information, valuable data, 
+or the ability to cause significant disruption.
+
+SocGholish is known for its **drive-by infection style**, where attackers use compromised legitimate websites to deliver 
+the malware. Attackers inject malicious **JavaScript** code into a compromised website or direct victims to the site through
+phishing links and other methods. When the victim loads the webpage, the injected script runs and checks whether the system
+meets certain requirements. If the victim passes these checks, a fake browser update prompt appears, convincing the user to 
+download what appears to be a legitimate update file, often delivered as a malicious JavaScript file such as *update*.js.
+
+SocGholish is primarily known as a malware delivery framework rather than a standalone malware family. It is associated with
+delivering various secondary malware families, including Cobalt Strike, Ransomware payloads, Dridex, DoppelPaymer, Chimera ransomware, 
+and other information stealing or remote access malware. The specific payloads delivered can change depending on the attackers objectives and campaigns.
+
+
+
+
+
+https://www.safestate.com/post/police-takes-down-socgholish-malware-network-tied-to-evil-corp
+https://www.proofpoint.com/us/blog/threat-insight/part-1-socgholish-very-real-threat-very-fake-update
+https://redcanary.com/threat-detection-report/threats/socgholish/
+https://www.huntress.com/blog/navigating-the-maze-of-socgholish-with-huntress-a-practical-guide?utm_source=google&utm_medium=cpc&utm_campaign=google-bofu-na-pmax-nonbrand-x-eng-x-ois&hnt=nxaa3saa2dk3&utm_term=&campaignid=23980440936&adgroupid=&adid=&hsa_acc=7071168637&hsa_cam=23980440936&hsa_grp=&hsa_ad=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=x&hsa_tgt=&hsa_ver=3&gad_source=1&gad_campaignid=23980443036&gbraid=0AAAAABmU8LSNTuCDiucT9gUSpq8DyymFz&gclid=CjwKCAjwyOzSBhBTEiwAmxvJ-m34umuoP9H8I6OwXO5oDuYWp5r58mACVeJNTio6Bs77y_Nm1j4GGxoCF7cQAvD_BwE
+https://attack.mitre.org/software/S1124/
