@@ -19,13 +19,3 @@ download what appears to be a legitimate update file, often delivered as a malic
 SocGholish is primarily known as a malware delivery framework rather than a standalone malware family. It is associated with
 delivering various secondary malware families, including Cobalt Strike, Ransomware payloads, Dridex, DoppelPaymer, Chimera ransomware, 
 and other information stealing or remote access malware. The specific payloads delivered can change depending on the attackers objectives and campaigns.
-
-
-
-
-
-https://www.safestate.com/post/police-takes-down-socgholish-malware-network-tied-to-evil-corp
-https://www.proofpoint.com/us/blog/threat-insight/part-1-socgholish-very-real-threat-very-fake-update
-https://redcanary.com/threat-detection-report/threats/socgholish/
-https://www.huntress.com/blog/navigating-the-maze-of-socgholish-with-huntress-a-practical-guide?utm_source=google&utm_medium=cpc&utm_campaign=google-bofu-na-pmax-nonbrand-x-eng-x-ois&hnt=nxaa3saa2dk3&utm_term=&campaignid=23980440936&adgroupid=&adid=&hsa_acc=7071168637&hsa_cam=23980440936&hsa_grp=&hsa_ad=&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_src=x&hsa_tgt=&hsa_ver=3&gad_source=1&gad_campaignid=23980443036&gbraid=0AAAAABmU8LSNTuCDiucT9gUSpq8DyymFz&gclid=CjwKCAjwyOzSBhBTEiwAmxvJ-m34umuoP9H8I6OwXO5oDuYWp5r58mACVeJNTio6Bs77y_Nm1j4GGxoCF7cQAvD_BwE
-https://attack.mitre.org/software/S1124/
